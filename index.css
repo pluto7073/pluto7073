@@ -7,7 +7,7 @@
 }
 body {
 	background-image: url("files/images/background.jpeg");
-	background-repeat: no-repeat;
+	background-repeat: 2;
 	background-position: center center;
 }
 .headerImage {
