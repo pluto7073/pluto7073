@@ -9,6 +9,7 @@ body {
 	background-image: url("files/images/background.jpeg");
 	background-repeat: repeat-y;
 	background-position: center center;
+	background-attachment: fixed;
 }
 .headerImage {
 	text-align: center;
