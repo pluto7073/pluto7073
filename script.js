@@ -17,7 +17,7 @@ function downloadFWE() {
 	document.location = "https://github.com/pluto7073/AlwaysFlying";
 }
 function downloadCoffee() {
-	document.location = "https://github.com/pluto7073/Coffee";
+	document.location = "https://github.com/pluto7073/Coffee/releases";
 }
 function coffee() {
 	document.location = "coffee.html";
