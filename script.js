@@ -23,7 +23,7 @@ function coffee() {
 	document.location = "coffee.html";
 }
 function downloadTea() {
-	document.location = "https://github.com/pluto7073/TeaMod";
+	document.location = "https://github.com/pluto7073/TeaMod/releases";
 }
 function tea() {
 	document.location = "teamod.html";
