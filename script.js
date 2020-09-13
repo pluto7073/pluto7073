@@ -28,3 +28,6 @@ function downloadTea() {
 function tea() {
 	document.location = "teamod.html";
 }
+function reportBug() {
+	document.location = "https://forms.gle/7qrktSttGh28qn1n8";
+}
