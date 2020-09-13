@@ -65,6 +65,7 @@ body {
 	font-family: Minecraft;
 	margin-left: 100px;
 	margin-top: 50px;
+	padding-left: 100px;
 }
 .downloadButton:hover {
 	color: #000;
