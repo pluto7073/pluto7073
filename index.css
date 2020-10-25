@@ -6,7 +6,7 @@
 	text-align: center;
 }
 body {
-	background-image: url("files/images/background2.0.png");
+	background-image: url("files/images/background.jpeg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -50,6 +50,7 @@ body {
 	margin-left: 100px;
 	margin-top: 50px;
 	color: #fff;
+	text-decoration: none;
 }
 .downloadButton {
 	border-color: #fff;
@@ -71,4 +72,8 @@ body {
 	color: #000;
 	background-color: #fff;
 	border-color: #000;
+}
+a {
+	text-decoration: none;
+	color: #ffffff;
 }

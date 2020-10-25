@@ -49,3 +49,6 @@ function tea2() {
 function tea3() {
 	document.location = "files/mods/plutos-tea-mod/plutos-tea-mod-1.16.3-1.1.jar";
 }
+function progs() {
+	document.location = "progs.html";
+}
