@@ -52,3 +52,50 @@ function tea3() {
 function progs() {
 	document.location = "progs.html";
 }
+function coffee4() {
+	document.location = "files/mods/coffee/coffee-1.16.3-1.4.jar";
+}
+function coffee5() {
+	document.location = "files/mods/coffee/coffee-1.16.4-1.4.jar";
+}
+function open1162() {
+            document.getElementById("1162box").style.height = "250px";
+            document.getElementById("1162btn").setAttribute("onClick", "close1162()");
+            document.getElementById("1162btn").innerHTML = " &times; ";
+        }
+        
+        function close1162() {
+            document.getElementById("1162box").style.height = "0";
+            document.getElementById("1162btn").setAttribute("onClick", "open1162()");
+            document.getElementById("1162btn").innerHTML = " 1.16.2 &darr; ";
+        }
+        
+        function open1163() {
+	       document.getElementById("1163box").style.height = "250px";
+            document.getElementById("1163btn").setAttribute("onClick", "close1163()");
+            document.getElementById("1163btn").innerHTML = " &times; ";
+        }
+        
+        function close1163() {
+            document.getElementById("1163box").style.height = "0";
+            document.getElementById("1163btn").setAttribute("onClick", "open1163()");
+            document.getElementById("1163btn").innerHTML = " 1.16.3 &darr; ";
+        }
+        
+        function open1164() {
+            document.getElementById("1164box").style.height = "250px";
+            document.getElementById("1164btn").setAttribute("onClick", "close1164()");
+            document.getElementById("1164btn").innerHTML = " &times; ";
+        }
+        
+        function close1164() {
+            document.getElementById("1164box").style.height = "0";
+            document.getElementById("1164btn").setAttribute("onClick", "open1164()");
+            document.getElementById("1164btn").innerHTML = " 1.16.4 &darr; ";
+        }
+function tea4() {
+    document.location = "files/mods/plutos-tea-mod/plutos-tea-mod-1.16.3-1.2.jar";
+}
+function tea5() {
+    document.location = "files/mods/plutos-tea-mod/plutos-tea-mod-1.16.4-1.2.jar";
+}

@@ -32,12 +32,12 @@
 		
 			<button class="downloadButton" onClick="reportBug()"> Report A Bug </button> <br> <br>
 			Mod Version<br>
-				1.1<br> <br>
+				1.2<br> <br>
 			Client or Server?<br>
 				Server<br> <br>
 				
 			Game Version?<br>
-				1.16.2 - 1.16.3<br> <br>
+				1.16.2 - 1.16.4<br> <br>
 				
 			Forge or Fabric?<br>
 				Fabric<br> <br>
@@ -46,6 +46,10 @@
 				Yes<br> <br>
 			
 			<div class="patchNotesBox">
+                <h2 class="standardHeader"> v1.2 </h2> <br> <br>
+                <h4 class="standardHeader">
+                    -Fixed bug where Tea Crop Had a black background <br>
+                </h4>
 				<h2 class="standardHeader"> v1.1 </h2> <br> <br>
 				<h4 class="standardHeader">
 					-Changed Icon from "Mod ID" to Tea Leaf <br>
@@ -87,11 +91,24 @@
 			</div>
 		</p>
 		<h2 class="standardHeader" id="download"> Download </h2>
-		<button class="downloadButton" onClick="tea3()"> Download plutos-tea-mod-1.16.3-1.1.jar </button>
-		<br>
-		<button class="downloadButton" onClick="tea2()"> Download plutos-tea-mod-1.16.3-1.0.jar </button>
-		<br>
-		<button class="downloadButton" onClick="tea1()"> Download plutos-tea-mod-1.16.2-1.0.jar </button>
+        <button class="openBtn" id="1164btn" onClick="open1164()"> 1.16.4 &darr; </button>
+        <div id="1164box" class="versionBox">
+            <button class="downloadButton" onClick="tea5()"> Download plutos-tea-mod-1.16.4-1.2.jar </button>
+            <br>
+        </div>
+        <button id="1163btn" class="openBtn" onClick="open1163()"> 1.16.3 &darr; </button>
+        <div id="1163box" class="versionBox">
+            <button class="downloadButton" onClick="tea4()"> Download plutos-tea-mod-1.16.3-1.2.jar </button>
+            <br>
+		    <button class="downloadButton" onClick="tea3()"> Download plutos-tea-mod-1.16.3-1.1.jar </button>
+		    <br>
+		    <button class="downloadButton" onClick="tea2()"> Download plutos-tea-mod-1.16.3-1.0.jar </button>
+		    <br>
+        </div>
+        <button class="openBtn" id="1162btn" onClick="open1162()"> 1.16.2 &darr; </button>
+        <div class="versionBox" id="1162box">
+		    <button class="downloadButton" onClick="tea1()"> Download plutos-tea-mod-1.16.2-1.0.jar </button>
+        </div>
 	</div>
 </body>
 </html>
